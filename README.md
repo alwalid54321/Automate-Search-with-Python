@@ -7,29 +7,29 @@ This project includes scripts to perform Google searches using different browser
 - `selenium` and `webdriver-manager` libraries 
  
 Install the required libraries using: 
-\`\`\`bash 
+```bash 
 pip install selenium webdriver-manager 
-\`\`\` 
+``` 
  
 ## Scripts 
  
-### \`search_chrome.py\` 
+### `search_chrome.py` 
 Runs the search script using Google Chrome. Run the script with: 
-\`\`\`bash 
+```bash 
 python chrome/search_chrome.py "<search_query>" 
-\`\`\` 
+```
  
-### \`search_firefox.py\` 
+### `search_firefox.py` 
 Runs the search script using Mozilla Firefox. Run the script with: 
-\`\`\`bash 
+```bash 
 python firefox/search_firefox.py "<search_query>" 
-\`\`\` 
+``` 
  
-### \`search_edge.py\` 
+### `search_edge.py` 
 Runs the search script using Microsoft Edge. Run the script with: 
-\`\`\`bash 
+```bash 
 python edge/search_edge.py "<search_query>" 
-\`\`\` 
+``` 
  
 ## Logging 
 Logs are saved in `search_script.log`. 
